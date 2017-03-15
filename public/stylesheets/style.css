@@ -1,0 +1,63 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#logo {
+  height: 120px;
+  width: 100px;
+}
+
+.logoContainer {
+  float: left;
+}
+
+.top > .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#title {
+  font-family: Caudex;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: ivory;
+  text-shadow: 9px 4px 10px Indigo
+}
+
+#subtitle{
+  font-family: Caudex;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: ivory;
+  text-shadow: 4px 4px 10px GoldenRod
+}
+
+
+#top{
+  margin-top: 0;
+  background-image: url("../images/iona.jpg");
+  background-size: 100% 160px;
+
+}
+.articletitle {
+  align-items: center;
+}
+
+.articlesub {
+  align-items: center;
+}
+
+.navbar-brand > span{
+  color: black !important;
+}
+.navLink {
+  color: black !important;
+  font-size: 18px
+}

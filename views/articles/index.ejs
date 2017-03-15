@@ -1,0 +1,12 @@
+<%- include('../partials/header.ejs') %>
+
+  <ul>
+  <% articles.forEach(({id, title, author, occupation, body}) => { %>
+    <li>
+      <h1 >
+        <a href="/articles/<%= id %>"><%= title %></a>
+      </h1>
+      <h3 ><%= author %>, <%= occupation %></h3>
+    </li>
+  <% }) %>
+</ul>
