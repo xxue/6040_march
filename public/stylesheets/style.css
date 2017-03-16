@@ -44,11 +44,27 @@ a {
 
 }
 .articletitle {
-  align-items: center;
+  text-align: center;
+  font-weight: bold;
 }
 
 .articlesub {
-  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.articlepic{
+ /*background-color: grey*/
+}
+
+/*#s {
+ height: 300px;
+ width: 200px;
+ border: 2px solid grey;
+}*/
+
+.articlecontent{
+  text-align: justify;
 }
 
 .navbar-brand > span{
