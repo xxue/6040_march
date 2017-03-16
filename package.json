@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-
+    "start": "nf start",
     "debug": "nodemon --inspect ./bin/www",
     "s": "sequelize"
   },
@@ -19,7 +19,8 @@
     "pg-hstore": "^2.3.2",
     "sequelize": "^3.30.2",
     "sequelize-cli": "^2.5.1",
-    "serve-favicon": "~2.3.2"
+    "serve-favicon": "~2.3.2",
+    "foreman": "~1.4.1",
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
