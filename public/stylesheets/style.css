@@ -1,6 +1,6 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 8px;
+  font: 18px "Georgia", sans-serif;
 }
 
 a {
@@ -10,10 +10,7 @@ a {
 #logo {
   height: 120px;
   width: 100px;
-}
-
-.logoContainer {
-  float: left;
+  margin-top: 10px
 }
 
 .top > .row {
