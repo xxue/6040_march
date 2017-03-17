@@ -4,9 +4,11 @@
   <% articles.forEach(({id, title, author, occupation, body}) => { %>
     <li>
       <h1 >
-        <a style ="color: darkred" href="/articles/<%= id %>"><%= title %></a>
+        <a style ="color: darkred" href="/articles/<%= id %>">
+<img src="http://gclipart.com/wp-content/uploads/2017/02/Apple-clip-art-2.png" style="width:30px;height:40px;margin-right:10px"></span>
+           <%= title %></a>
       </h1>
-      <h3 ><%= author %>, <%= occupation %></h3><hr>
+      <h3 style="margin-left:50px"><%= author %>, <%= occupation %></h3><hr>
     </li>
   <% }) %>
 </ul>

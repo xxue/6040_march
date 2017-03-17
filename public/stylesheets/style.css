@@ -21,7 +21,7 @@ a {
 #title {
   font-family: Caudex;
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   color: ivory;
   text-shadow: 9px 4px 10px Indigo
@@ -29,7 +29,7 @@ a {
 
 #subtitle{
   font-family: Caudex;
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
   font-weight: bold;
   color: ivory;
@@ -57,12 +57,6 @@ a {
  /*background-color: grey*/
 }
 
-/*#s {
- height: 300px;
- width: 200px;
- border: 2px solid grey;
-}*/
-
 .articlecontent{
   text-align: justify;
 }
@@ -72,5 +66,22 @@ a {
 }
 .navLink {
   color: black !important;
-  font-size: 18px
+  font-size: 23px
+}
+
+#circle-shape {
+   margin: 2rem;
+}
+#circle-shape p {
+  line-height: 1.8;
+}
+#circle-shape .curve {
+  width: 40%; height: auto;
+  min-width: 100px;
+  float: left;
+  margin-right:12rem;
+  border: 2px solid grey;
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
 }
